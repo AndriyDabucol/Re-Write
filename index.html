@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="navbar">
+        <h2>RE:Write</h2>
+        <button class="button purple" id="how-it-works"> How it works </button>
+      </div>
+
+
+      <div class="modal" id="note-modal">
+
+        <div id="create-note">
+          
+          <input placeholder="Title" id="note-title"/>
+          <br />
+          <textarea id="note-content" placeholder="Take down some notes, make sure to keep it short!"></textarea>    
+          
+          <span id="modal-buttons">
+            <button class="gray button" id="note-btn-1"> Finish </button>
+            <button class="gray button" id="note-btn-2"> Discard </button>
+          </span>
+        </div>
+      </div>
+
+      <div id="workspace">
+        <button id="new-note-btn" class="button"> <span class="purple">+</span> New Note</button>
+        
+
+        <div id="notes">
+
+        </div>
+      </div>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
